@@ -1,0 +1,21 @@
+{
+  "name": "test-typescript-three",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wado63/test-typescript-three.git",
+  "author": "wado63 <0603sei@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "three": "^0.115.0",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
